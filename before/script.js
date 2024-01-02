@@ -16,6 +16,7 @@ const overlay = document.getElementById('overlay')
  
 openModalBtn.addEventListener("click", () => {
    const open = modal.classList.add('open')
+   const over = overlay.classList.add('open')
  
 })
 
