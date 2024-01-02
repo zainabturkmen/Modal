@@ -14,7 +14,10 @@ const overlay = document.getElementById('overlay')
 // TODO: 3. Create a click event listener for the open-modal-btn that adds the class "open" to the modal
 // BONUS: Also add the class "open" to the overlay
  
-openModalBtn.addEventListener("click", () => {
+openModalBtn.addEventListener("click", (e) => {
+  
+  e.preventDefault()
+
    const open = modal.classList.add('open')
    const over = overlay.classList.add('open')
  
