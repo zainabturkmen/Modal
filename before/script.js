@@ -4,7 +4,7 @@
     * open-modal-btn
     * close-modal-btn
     * BONUS: overlay
-*/
+*/ 
 const openModalBtn = document.getElementById('open-modal-btn')
 const modal = document.getElementById('modal')
 const closeModalBtn = document.getElementById('close-modal-btn')
