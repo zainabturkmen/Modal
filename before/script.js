@@ -15,7 +15,7 @@ const overlay = document.getElementById('overlay')
 // BONUS: Also add the class "open" to the overlay
  
 openModalBtn.addEventListener("click", () => {
-  modal.classList.add('open')
+   const open = modal.classList.add('open')
  
 })
 
@@ -24,7 +24,10 @@ openModalBtn.addEventListener("click", () => {
 // BONUS: Also remove the class "open" from the overlay
 
 closeModalBtn.addEventListener("click", () => {
-  openModalBtn.remove()
+  modal.remove()
+  overlay.remove()
 })
 
 // BONUS: Add a click event listener to the overlay that removes the class "open" from the modal and the overlay
+
+
